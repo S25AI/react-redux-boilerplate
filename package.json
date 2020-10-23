@@ -9,7 +9,7 @@
     "dev:lint": "webpack-dev-server --define lint",
     "lint": "eslint --ext js,jsx src",
     "dev:watch": "nodemon --watch webpack.config.js --exec \"webpack-dev-server --compress \"",
-    "build": "cross-env NODE_ENV=production webpack"
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "Dmitriy.Silvestrov <jade25st@gmail.com>",

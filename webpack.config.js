@@ -68,8 +68,7 @@ const commonConfig = {
   ],
 
   devServer: {
-    host: 'localhost',
-    port: 3002,
+    host: '0.0.0.0',
     contentBase: path.resolve(__dirname, 'build'),
     historyApiFallback: true,
     hot: true,
